@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import ThemeToggle from './ThemeToggle';
 import { motion, AnimatePresence } from 'framer-motion';
-import resumeFile from '../assets/RESUME.pdf';
+import resumeFile from '../assets/RESUME1.pdf';
 
 const navLinks = [
     { name: 'About', href: '#about' },
