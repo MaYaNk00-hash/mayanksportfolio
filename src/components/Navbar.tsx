@@ -63,8 +63,8 @@ export default function Navbar() {
                                 Let's Talk
                             </a>
                             <a
-                                href="/resume.pdf"
-                                download
+                                href="/RESUME.pdf"
+                                download="Mayank's Resume.pdf"
                                 className="text-slate-600 dark:text-slate-300 hover:text-primary-600 dark:hover:text-primary-400 px-3 py-2 rounded-md text-sm font-medium transition-colors border border-slate-200 dark:border-slate-700"
                             >
                                 Resume

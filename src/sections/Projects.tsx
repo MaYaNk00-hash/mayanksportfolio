@@ -1,4 +1,4 @@
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink, Github } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { projects } from '../data/projects';
 
@@ -46,7 +46,7 @@ export default function Projects() {
 
                                 <div className="space-y-4 mb-6">
                                     <div>
-                                        <h4 className="text-sm font-semibold text-primary-600 dark:text-primary-400 uppercase tracking-wider mb-1">Buttom Line</h4>
+                                        <h4 className="text-sm font-semibold text-primary-600 dark:text-primary-400 uppercase tracking-wider mb-1">Bottom Line</h4>
                                         <p className="text-slate-600 dark:text-slate-300 italic border-l-4 border-primary-200 dark:border-primary-800 pl-4 py-1 bg-white/50 dark:bg-slate-800/50 rounded-r-md">
                                             "{project.outcome}"
                                         </p>
@@ -72,12 +72,24 @@ export default function Projects() {
                                 </div>
 
                                 <div className="flex gap-4">
-                                    <a
-                                        href={project.link}
-                                        className="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 font-semibold hover:underline"
-                                    >
-                                        View Live Demo <ExternalLink className="w-4 h-4" />
-                                    </a>
+                                    {project.link !== '#' && (
+                                        <a
+                                            href={project.link}
+                                            className="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 font-semibold hover:underline"
+                                            target="_blank" rel="noopener noreferrer"
+                                        >
+                                            View Live Demo <ExternalLink className="w-4 h-4" />
+                                        </a>
+                                    )}
+                                    {project.github !== '#' && (
+                                        <a
+                                            href={project.github}
+                                            className="inline-flex items-center gap-2 text-slate-700 dark:text-slate-300 font-semibold hover:underline"
+                                            target="_blank" rel="noopener noreferrer"
+                                        >
+                                            View Git Repo <Github className="w-4 h-4" />
+                                        </a>
+                                    )}
                                 </div>
                             </div>
                         </motion.div>

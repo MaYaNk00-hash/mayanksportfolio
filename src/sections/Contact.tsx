@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Mail, Linkedin, Github } from 'lucide-react';
+import { Mail, Linkedin, Github, Phone } from 'lucide-react';
 
 export default function Contact() {
     const [formData, setFormData] = useState({
@@ -55,6 +55,10 @@ export default function Contact() {
                             <a href="mailto:mayankprajapat010@gmail.com" className="flex items-center gap-4 text-primary-100 hover:text-white transition-colors">
                                 <Mail className="w-6 h-6" />
                                 <span>mayankprajapat010@gmail.com</span>
+                            </a>
+                            <a href="tel:+918490895556" className="flex items-center gap-4 text-primary-100 hover:text-white transition-colors">
+                                <Phone className="w-6 h-6" />
+                                <span>+91 8490895556</span>
                             </a>
                             <a href="https://www.linkedin.com/in/mayank-prajapat-b5325b239/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-primary-100 hover:text-white transition-colors">
                                 <Linkedin className="w-6 h-6" />

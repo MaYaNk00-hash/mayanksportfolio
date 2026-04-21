@@ -1,24 +1,29 @@
-import { Database, Layout, Server, Wrench } from 'lucide-react';
+import { Database, Layout, Server, Wrench, BrainCircuit } from 'lucide-react';
 
 export const skills = [
     {
-        category: 'Frontend',
+        category: 'Programming Languages',
         icon: Layout,
-        items: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js', 'Framer Motion', 'Redux'],
+        items: ['Python', 'C', 'C++', 'JavaScript'],
     },
     {
-        category: 'Backend',
+        category: 'Backend & Databases',
         icon: Server,
-        items: ['Node.js', 'Express', 'Python', 'Go', 'GraphQL', 'REST APIs'],
+        items: ['REST APIs', 'FastAPI', 'Flask', 'SQL', 'MongoDB'],
     },
     {
-        category: 'Database',
-        icon: Database,
-        items: ['PostgreSQL', 'MongoDB', 'Supabase', 'Redis', 'Prisma'],
+        category: 'Machine Learning',
+        icon: BrainCircuit,
+        items: ['Regression', 'Classification', 'Model Evaluation', 'Feature Engineering'],
     },
     {
-        category: 'DevOps & Tools',
+        category: 'Libraries & Tools',
         icon: Wrench,
-        items: ['Docker', 'AWS', 'Git', 'CI/CD', 'Linux', 'Vite', 'Data Analytics'],
+        items: ['Pandas', 'NumPy', 'Scikit-learn', 'Matplotlib', 'Git', 'GitHub', 'VS Code'],
+    },
+    {
+        category: 'Core Concepts',
+        icon: Database,
+        items: ['Data Structures & Algorithms', 'Probability', 'Statistics'],
     },
 ];

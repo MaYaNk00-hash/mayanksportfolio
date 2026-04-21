@@ -20,15 +20,15 @@ export default function Hero() {
                         className="flex-1 text-center lg:text-left"
                     >
                         <div className="inline-block px-3 py-1 mb-6 text-sm font-medium text-primary-600 dark:text-primary-400 bg-primary-50 dark:bg-primary-900/30 rounded-full">
-                            Full Stack Developer & Product Designer
+                            Backend Developer | Machine Learning | Data Science
                         </div>
 
                         <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight text-slate-900 dark:text-white mb-6">
-                            Building <span className="text-primary-600 dark:text-primary-500">high-converting</span> digital products for startups.
+                            Building <span className="text-primary-600 dark:text-primary-500">scalable APIs</span> and intelligent ML models.
                         </h1>
 
                         <p className="text-lg sm:text-xl text-slate-600 dark:text-slate-400 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                            I help founders and businesses turn complex ideas into scalable, user-centric applications that drive revenue and growth. No fluff, just results.
+                            I develop robust backend systems and leverage data to build applications that solve real-world problems. Passionate about system engineering and AI.
                         </p>
 
                         <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
