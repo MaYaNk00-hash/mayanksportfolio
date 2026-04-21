@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import ThemeToggle from './ThemeToggle';
 import { motion, AnimatePresence } from 'framer-motion';
+import resumeFile from '../assets/RESUME.pdf';
 
 const navLinks = [
     { name: 'About', href: '#about' },
@@ -63,7 +64,7 @@ export default function Navbar() {
                                 Let's Talk
                             </a>
                             <a
-                                href="/RESUME.pdf"
+                                href={resumeFile}
                                 download="Mayank's Resume.pdf"
                                 className="text-slate-600 dark:text-slate-300 hover:text-primary-600 dark:hover:text-primary-400 px-3 py-2 rounded-md text-sm font-medium transition-colors border border-slate-200 dark:border-slate-700"
                             >
